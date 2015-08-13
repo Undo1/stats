@@ -73,7 +73,7 @@ function renderRoll(d)
 function nameForNumber(n)
 {
 	var arr = new Array("one", "two", "three", "four", "five", "six")
-	return arr[Number(n)]
+	return arr[Number(n)-1]
 }
 
 function shuffle(array)
