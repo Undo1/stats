@@ -1,0 +1,32 @@
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+
+<!--<link rel="stylesheet" href="playing-cards/generated-styles/style.css">-->
+
+<link rel="stylesheet" href="dabblet.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</head>
+
+<div class="col-md-10 col-md-offset-1">
+	<h3>Craps</h3>
+	<div class="text-center">
+		<div class="col-md-4 col-md-offset-4" style="margin-bottom:30px">
+			<p class="text-muted">Rolls die until sum is 7 or 11 (win)<br> or is 2, 3, or 12 (lose)</p>
+			<button class="btn btn-success" style="margin-top:10px" type="submit" id="roll_die">Run</button>
+		</div>
+	</div>
+	<table class="table" id="results_table">
+		<tr>
+			<th>Roll #</th>
+			<th>First Die</th>
+			<th>Second Die</th>	
+			<th>Result</th>
+		</tr>	
+	</table>
+</div>
+
+<script src="script.js"></script>
