@@ -50,14 +50,14 @@ function rollDie()
 		row_class = 'danger'
 	}
 
-	var result = '-'
+	var result = sum.toString()
 	if (win)
 	{
-		result = "Win"
+		result = "Win (" + sum.toString() + ")"
 	}
 	if (lose)
 	{
-		result = "Lose"
+		result = "Lose (" + sum.toString() + ")"
 	}
 
 	var row = "<tr class='" + row_class + "'><td>" + count + "</td><td>" + renderRoll(die1) + "</td><td>" + renderRoll(die2) + "</td><td>" + result + "</td></tr>"
